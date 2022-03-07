@@ -1,1 +1,187 @@
+ gcc -g p4final.c
+ ./a.out
+Enter the degree of the polynoial
+2
+Enter the value of x
+1
+Enter the 1 coefficients of x
+2
+Enter the 2 coefficients of x
+3
+Enter the 3 coefficients of x
+1
+The value of 2 +3 +1is 6.00 2gdb a.out
+bash: 2gdb: command not found
+ gdb a.out
+GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.out...done.
+(gdb) b main
+Breakpoint 1 at 0x9cd: file p4final.c, line 40.
+(gdb) r
+Starting program: /home/runner/Test3Session2/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+ pwd
+/home/runner/Test3Session2
+ gcc -g p4final.c
+ ./a.out
+Enter the degree of the polynoial
+55
+Enter the value of x
+12
+Enter the 1 coefficients of x
+2
+Enter the 2 coefficients of x
+1
+Enter the 3 coefficients of x
+3
+Enter the 4 coefficients of x
+5
+Enter the 5 coefficients of x
+3
+Enter the 6 coefficients of x
+1
+Enter the 7 coefficients of x
+1
+Enter the 8 coefficients of x
+69
+Enter the 9 coefficients of x
 
+
+./a.out
+Enter the 10 coefficients of x
+Enter the 11 coefficients of x
+Enter the 12 coefficients of x
+Enter the 13 coefficients of x
+Enter the 14 coefficients of x
+Enter the 15 coefficients of x
+Enter the 16 coefficients of x
+Enter the 17 coefficients of x
+Enter the 18 coefficients of x
+Enter the 19 coefficients of x
+Enter the 20 coefficients of x
+Enter the 21 coefficients of x
+Enter the 22 coefficients of x
+Enter the 23 coefficients of x
+Enter the 24 coefficients of x
+Enter the 25 coefficients of x
+Enter the 26 coefficients of x
+Enter the 27 coefficients of x
+Enter the 28 coefficients of x
+Enter the 29 coefficients of x
+Enter the 30 coefficients of x
+Enter the 31 coefficients of x
+ pwd
+/home/runner/Test3Session2
+ gcc -g p4final.c
+ ./a.out
+Enter the degree of the polynoial
+2
+Enter the value of x
+1
+Enter the 1 coefficients of x
+2
+Enter the 2 coefficients of x
+3
+Enter the 3 coefficients of x
+1
+The value of 2 +3 +1is 6.00 2gdb a.out
+bash: 2gdb: command not found
+ gdb a.out
+GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.out...done.
+(gdb) b main
+Breakpoint 1 at 0x9cd: file p4final.c, line 40.
+(gdb) r
+Starting program: /home/runner/Test3Session2/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, main () at p4final.c:40
+ pwd
+/home/runner/Test3Session2
+ gcc -g p4final.c
+ ./a.out
+Enter the degree of the polynoial
+1
+Enter the value of x
+3
+Enter the 1 coefficients of x
+2
+Enter the 2 coefficients of x
+32
+The value of 2 +32is 38.00 
+ gdb a.out
+GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.out...done.
+(gdb) b main
+Breakpoint 1 at 0x9cd: file p4final.c, line 40.
+(gdb) r
+Starting program: /home/runner/Test3Session2/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, main () at p4final.c:40
+40  int main(){
+(gdb) n
+43      n=input_degree();
+(gdb) n
+Enter the degree of the polynoial
+n
+44      x=input_x();
+(gdb) n
+Enter the value of x
+45      float a[n];
+(gdb) n
+46      input_coefficients(n,a);
+(gdb) n
+Enter the 1 coefficients of x
+n
+Enter the 2 coefficients of x
+n
+Enter the 3 coefficients of x
+n
+Enter the 4 coefficients of x
+^C
+Program received signal SIGINT, Interrupt.
+0x00007feaa0e6c151 in __GI___libc_read (fd=0, buf=0x56093b45a670, nbytes=1024)
+    at ../sysdeps/unix/sysv/linux/read.c:27
+27  ../sysdeps/unix/sysv/linux/read.c: No such file or directory.
+(gdb) Quit
+(gdb) Quit
